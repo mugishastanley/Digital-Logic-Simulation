@@ -1,5 +1,5 @@
 # Digital-Logic-Simulation
-Digital Logic Simulation is a web application for simulating basic behaviour of digital logic circuits, truth tables and minimization of boolean expressions. Developed as an undergraduate final year project. </br>
+Digital Logic Simulation is a web application for simulating basic behaviour of digital logic circuits, truth tables and minimization of boolean expressions.  </br>
 
 # How to Run </br>
 Enable Java script and applets.
