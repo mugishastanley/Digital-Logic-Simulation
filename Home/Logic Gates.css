@@ -1,0 +1,122 @@
+td img {
+/* Another Mozilla/Netscape bug with making sure our images display correctly */
+	display: block;
+}
+
+#FWTableContainer1996080027 {
+/* The master div to make sure that our popup menus get aligned correctly.  Be careful when playing with this one. */
+	position:relative;
+	margin:0px;
+	width:130px;
+	height:30px;
+	text-align:left;
+}
+
+#MMMenuContainer0416072453_0 {
+/* This ID is related to the master menu div for menu MMMenuContainer0416072453_0 and contains the important positioning information for the menu as a whole */
+	position:absolute;
+	left:0px;
+	top:30px;
+	visibility:hidden;
+	z-index:300;
+}
+
+#MMMenu0416072453_0 {
+/* This class defines things about menu MMMenu0416072453_0's div. */
+	position:absolute;
+	left:0px;
+	top:0px;
+	visibility:hidden;
+	background-color:#000000;
+	width:104px;
+	height:238px;
+}
+
+.MMMIFVStyleMMMenu0416072453_0 {
+/* This class determines the general characteristics of the menu items in menu MMMenu0416072453_0 */
+	width:104px;
+	height:34px;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:88px;
+	height:18px;
+}
+
+.MMMIVStyleMMMenu0416072453_0 {
+/* This class determines the general characteristics of the menu items in menu MMMenu0416072453_0 */
+	width:104px;
+	height:34px;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:88px;
+	height:18px;
+}
+
+#MMMenu0416072453_0_Item_0 {
+/* Unique ID for item 0 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:0px;
+}
+
+#MMMenu0416072453_0_Item_1 {
+/* Unique ID for item 1 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:34px;
+}
+
+#MMMenu0416072453_0_Item_2 {
+/* Unique ID for item 2 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:68px;
+}
+
+#MMMenu0416072453_0_Item_3 {
+/* Unique ID for item 3 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:102px;
+}
+
+#MMMenu0416072453_0_Item_4 {
+/* Unique ID for item 4 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:136px;
+}
+
+#MMMenu0416072453_0_Item_5 {
+/* Unique ID for item 5 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:170px;
+}
+
+#MMMenu0416072453_0_Item_6 {
+/* Unique ID for item 6 of menu MMMenu0416072453_0 so we can set its position */
+	left:0px;
+	top:204px;
+}
+
+#MMMenuContainer0416072453_0 img {
+/* needed for Mozilla/Camino/Netscape */
+	border:0px;
+}
+
+#MMMenuContainer0416072453_0 a {
+/* Controls the general apperance for menu MMMenuContainer0416072453_0's items, including color and font */
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	text-align:left;
+	vertical-align:middle;
+	padding:8px;
+	background: url("images/mmmenu1_104x34_up.gif") #33cccc;
+	font-weight:bold;
+	font-style:italic;
+	display:block;
+	position:absolute;
+}
+
+#MMMenuContainer0416072453_0 a:hover {
+/* Controls the mouse over effects for menu MMMenuContainer0416072453_0 */
+	color:#ffffff;
+	background: url("images/mmmenu1_104x34_over.gif") #ff3333;
+}

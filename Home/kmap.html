@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>karnaugh Map</title>
+<script language="javascript" src="scripts/kmap.js">
+
+
+		</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCFFFF;
+}
+.style1 {
+	font-size: large;
+	font-weight: bold;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+	<BODY>
+	<form name="UI" onSubmit="return false">
+		<table width="100%">
+		<tr>
+		  <td width="842" height="21" align="center">&nbsp;</td>
+		</tr><tr><td>
+			<table border="1" cellspacing="10" width="100%">
+			  <tr><td width="614" align="center"><h3>KARNAUGH MAP</h3></td>
+			  <td width="552" colspan="3" align="right"><div align="right">
+			    <input type="button" name="Button" value="Print" onClick= print();>
+</a> &nbsp;&nbsp;
+<a href="backgroundpage.html"><input type="button" name="Button" value="Close" ></a></div></td>
+			</tr><tr><td colspan="3">
+		<div id="Toggles">
+		
+			<table width="100%">
+				<tr>
+					<td width="42%">  <label>Select Number of input variables
+			
+	                <select name="select">
+					<option onClick="" id=""> </option>
+	          <option onClick="ChangeVariableNumber(2);" id="TwoVariableRB">2</option>
+	          <option onClick="ChangeVariableNumber(3);" id="ThreeVariableRB">3</option>
+	          <option onClick="ChangeVariableNumber(4);" id="FourVariableRB">4</option>
+                    </select>
+	        </label>			</td>
+					<td width="58%"><input type="checkbox" onClick="ToggleDontCare();" ID="AllowDontCareCB">
+				  Allow Don't Cares					</td>
+				</tr>
+			</table></td>            
+			  <tr>
+			    <td colspan="3"><table cellspacing="10" bgcolor="#CCFFFF">
+                  <tr>
+                    <td width="73" valign="top" bgcolor="#CCFFFF"><div id="TruthTableDiv"></div></td>
+                    <td width="1071" bgcolor="#CCFFFF" ><table >
+                        <tr>
+                          <td><div id="KarnoMapDiv"></div></td>
+                        </tr>
+                        <tr>
+                          <td width="1062" height="80"><br>
+                          <div id="EquationDiv"></div></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                </table>			      <h2 align="center">&nbsp;</h2></td>
+	      </table>
+			</td></tr>
+	  </table>
+	</form>
+</BODY>
+</html>

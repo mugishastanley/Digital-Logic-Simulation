@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Digital Logic Help</title>
+</head>
+<body>
+<h3>Help Menu</h3>
+<a href="#Truthtable" title="Truth table Help" target="Help">Truth table</a><br>
+<a href="#Kmap" target="Help">Karnaugh Map</a><br>
+<a href="#sop" target="Help">Sum of products</a><br>
+<a href="#pos" target="Help">Product of Sums </a><br>
+<a href="#lg">Logic Gates </a>
+<hr>
+<h3 align="center">Truth Table<a name="Truthtable" id="Truthtable"></a></h3>
+<hr>
+Enter the boolean expression in lower cases e.g a,b...z, then click generate the truth table. Examples  <br />
+  a+b=a or b <br />
+  ab=a and b <br />
+  a(b+c)d=a and(b or c)and d <br />
+  a`= not a <br />
+  (ab)`=not(a and b) <hr>
+<h3 align="center">Karnaugh Map<a name="Kmap" id="Kmap"></a></h3>
+<hr>
+ <p>Click on the buttons in the Truth Table or in the Karnaugh Map to change the value. </p>
+ <p>Example F(a,b,c)= &sum;(1,3,6,7) will reduce to BC'+AC </p>
+ <table>
+   <tbody>
+     
+   </tbody>
+ </table>
+ </p>
+ <hr>
+<h3 align="center"> Product of Sums<a name="pos" id="pos"></a></h3>
+<hr>
+<p>Product of sums is a boolean Expression containing OR terms called sum terms each term may have n number of literals. the product denotes the ANDing of these terms example F=x(y'+z)(x'+y+z') </p>
+<p>Enter a boolean function and click generate product of sums<br>
+  this will generate a truth table, extract the min terms from the truth table and use them to costruct a product of sums boolean function
+</p>
+<hr>
+  <h3 align="center"> Sum Of Products<a name="sop" id="sop"></a></h3>
+  <hr>
+  <p><br>
+  The sum of products is a boolean expression containing AND terms called product terms with one or more literals each. The sum denotes the ORing of these terms.example F=y'+xy+x'yz' </p>
+  <p>Enter a boolean function and click generate sum of products 
+    <br>
+    this will generate a truth table, extract the min terms from the truth table and use them to costruct a sum of prodcuts boolean  function.
+  </p>
+<p>The 1's placed in the in the squares of the map represent the min terms of the function. The min terms not included in the sandard sum of products form of a function denote the complement of the function. <br>
+</p>
+    <hr>
+<strong><h3>Logic Gates <a name="lg" id="lg"></a></h3><hr>
+</strong>
+<p><strong>  </strong>
+Buttons on the left side indicate input to the logic gate. While the output of the gate is shown on the rightside.Click on the in put buttons on the left of the gate and output on the right side.<br>
+The green color indicates  OFF signal or 0 and red color for ON signal or 1. </p>
+<p>A truth table for each gate is provided. </p>
+<hr>
+</body>
+</html>

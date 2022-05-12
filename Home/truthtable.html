@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script language="javascript" src="scripts/truthtable.js">
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCFFFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body>
+<center>
+<table border="1" width="100%" cellspacing="10" 
+<tr><td><h2 align="center">Truth Table </h2></td><td colspan="1" align="right"><div align="right">  <input type="button" name="Button" value="Print" onClick= print();>
+</a> &nbsp;&nbsp;
+<a href="backgroundpage.html"><input type="button" name="Button" value="Close" ></a></div></td></td></tr>
+  <tr><form><td valign="top" align="center" colspan="3">
+       Enter the Boolean Expression<p>
+    <input onKeyDown="seeEvaluate()" id="expr" type="text"></p>  
+       <p><input name="Button" type="button" onClick="evaluateMe();"value="Generate Truth Table">
+      
+<input name="Button" type="reset" value="Clear">
+      
+    </p>
+    <span id="logictable"></span><br>
+    <span id="results"></span>
+  </td></form>
+      </tr></table>
+</center>
+</body>
+</html>
